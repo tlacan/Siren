@@ -11,7 +11,7 @@ import UIKit
 // MARK: - Siren
 
 /// The Siren Class. A singleton that is initialized using the `shared` constant.
-public class Siren: NSObject {
+open class Siren: NSObject {
 
     /// Current installed version of your app.
     internal var currentInstalledVersion: String? = {
