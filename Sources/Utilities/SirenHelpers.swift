@@ -11,7 +11,7 @@ import Foundation
 // MARK: - Version
 
 extension Siren {
-    func isAppStoreVersionNewer() -> Bool {
+    public func isAppStoreVersionNewer() -> Bool {
         var newVersionExists = false
 
         if let currentInstalledVersion = currentInstalledVersion,
